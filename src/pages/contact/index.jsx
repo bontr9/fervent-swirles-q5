@@ -18,8 +18,6 @@ const Contact = () => {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        // name の入力値をリクエストに含めよう！
-
         name: name,
         email: email,
         message: message,
